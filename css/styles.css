@@ -148,8 +148,8 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Merriweather', sans-serif;
-    background: red;
-    max-width: 1350px;
+    background: #B0C4DE;
+    max-width: 1300px;
 }
 
 ul {
@@ -229,6 +229,6 @@ a {
 
 @media (min-width:1250px) {
     #images {
-        width: 90%;
+        width: 95%;
     }
 }
