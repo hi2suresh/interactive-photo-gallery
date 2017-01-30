@@ -197,6 +197,15 @@ a {
     .gallery img {
         padding: 10px;
     }
+    
+     #cboxTitle{
+       margin: 20px;
+       top: 20px;
+       color: black;
+    }
+    
+
+   
 }
 
 
@@ -230,5 +239,16 @@ a {
 @media (min-width:1250px) {
     #images {
         width: 95%;
+    }
+    
+    #cboxTitle{
+       margin: 0px;
+       top: -20px; 
+       color: #ccc;
+       font-size: 0.95em;
+    }
+    
+    #cboxCurrent {
+        font-size: 0.7em;
     }
 }
