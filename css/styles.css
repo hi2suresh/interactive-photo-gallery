@@ -212,6 +212,10 @@ a {
 /*****Tablet Settings *********/
 
 @media (min-width:768px) {
+    #container {
+        margin-right: 2%;
+    }
+    
     #search-input {
         margin-top: 45px;
         margin-bottom: 15px;
