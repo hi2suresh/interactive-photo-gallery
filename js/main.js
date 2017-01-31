@@ -1,10 +1,13 @@
-//use strict;
+//Script uses jquery and hence to be run after loading jQuery
 
 $('#search-input').on('input', function(e) {
     var inputValue = $(this).val().toLocaleLowerCase();
+    var imageTitle = '';
    $('.gallery li').filter(function(){
-       //Show the images only if the caption contains input value.
-       if($(this).children('a').attr('title').toLowerCase().includes(inputValue)){         
+       //Get the image title or caption
+       imageTitle = $(this).children('a').attr('title').toLowerCase();
+       //Show the images only if the caption includes input value.
+       if(imageTitle.includes(inputValue)){         
           $(this).css('display','');           
           }
        else{
