@@ -173,6 +173,7 @@ a {
     clear: both;
 }
 
+/* #cboxTitle{ display: none; !important}*/
 
 /*****Mobile Settings *********/
 
@@ -196,16 +197,7 @@ a {
     }
     .gallery img {
         padding: 10px;
-    }
-    
-     #cboxTitle{
-       margin: 20px;
-       top: 20px;
-       color: black;
-    }
-    
-
-   
+    }   
 }
 
 
@@ -235,6 +227,8 @@ a {
     .gallery img {
         padding: 20px;
     }
+    
+   
 }
 
 
@@ -243,16 +237,6 @@ a {
 @media (min-width:1250px) {
     #images {
         width: 95%;
-    }
-    
-    #cboxTitle{
-       margin: 0px;
-       top: -20px; 
-       color: #ccc;
-       font-size: 0.95em;
-    }
-    
-    #cboxCurrent {
-        font-size: 0.7em;
-    }
+    }    
+     #cboxTitle{position:fixed; bottom:8px; left:20%; right:20%; color:darkorange;}
 }

@@ -58,14 +58,14 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
     <script src="js/color-box/jquery.colorbox-min.js"></script>
-    <script>
+    <script>      
          var cboxOptions = {
-          width: '95%',
-          height: '95%',
+          width: '90%',
+          height: '90%',
           maxWidth: '960px',
           maxHeight: '960px',
          rel:"group1"
-        }
+        };
 
         $('.gallery a').colorbox(cboxOptions);
 
@@ -74,7 +74,7 @@
               width: window.innerWidth > parseInt(cboxOptions.maxWidth) ? cboxOptions.maxWidth : cboxOptions.width,
               height: window.innerHeight > parseInt(cboxOptions.maxHeight) ? cboxOptions.maxHeight : cboxOptions.height
             });
-        });        
+        }); 
     </script>
     <script src="js/main.js"></script>
 </body>
