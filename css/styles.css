@@ -163,8 +163,6 @@ a {
 #container {
     background: #fff;
     margin: 0.5% 4% 0.5% 0.5%;
-    position: relative;
-    /*        width: 90%;*/
 }
 
 .clear-fix {
@@ -173,15 +171,15 @@ a {
     clear: both;
 }
 
-/* #cboxTitle{ display: none; !important}*/
+
 
 /*****Mobile Settings *********/
 
 @media (min-width:320px) {
     #search,
     #images {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     #search-input {
         margin-top: 20px;
@@ -206,37 +204,34 @@ a {
 @media (min-width:768px) {
     #container {
         margin-right: 2%;
+        
     }
     
+    #container {
+         background: #fff;
+    }
+    
+    #images {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     #search-input {
         margin-top: 45px;
         margin-bottom: 15px;
-        font-size: 16px;
-        /*            padding: 10px 0px 10px 5px;*/
-    }
-    #images {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-    #images div,
-    #images li {
-        background: #fff;
-        display: inline-block;
-    }
-    .gallery img {
-        padding: 20px;
+        font-size: 16px;      
     }
     
-   
+    .gallery li {
+        margin: 0 auto;
+        display: inline-block;
+        
+    }
 }
 
 
 /*****Desktop Settings *********/
 
 @media (min-width:1250px) {
-    #images {
-        width: 95%;
-    }    
-     #cboxTitle{position:fixed; bottom:8px; left:20%; right:20%; color:darkorange;}
+
+     #cboxTitle {position:fixed; bottom:10px; left:25%; right:25%; color:darkorange;}
 }
